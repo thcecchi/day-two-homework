@@ -1,8 +1,8 @@
 /*body {
   background-color: ghostwhite;
 }*/
-
-.mainNav {
+/*=========================NAVIGATION========================*/
+/*.mainNav {
   background-color: ghostwhite;
   width: 1210px;
   height: 75px;
@@ -43,7 +43,7 @@ li {
 a {
   color: black;
   text-decoration: none;
-}
+}*/
 
 /*h1 {
   text-align: center;
@@ -54,7 +54,7 @@ a {
 /*span {
   padding: 30px;
 }*/
-
+/*=======================LARGE HEADER TEXT========================*/
 .bigTextResume {
   font-size: 110px;
   font-family: sans-serif;
@@ -71,37 +71,40 @@ a {
   background-color: white;
   padding-left: 10px;
   margin-left: 5px;
-  /*border-radius: 20%;*/
 }
 
 .logoContainer {
   margin-top: 100px;
-  margin-left: 50px;
-  height: 200px;
-  display: inline;
-  float: left;
+  height: 85%;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .workIcon {
   width: 220px;
   height: 200px;
-  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  align: center;
+}
+
+.logoContainer h3 {
+  display: block;
+  /*margin-left: 100px;*/
+  text-align: center;
 }
 
 .logoContainer p {
   display: block;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   font-weight: bold;
-  font-size: 22px;
-  text-decoration: underline;
-  text-align: center;
+  font-size: 16px;
+  text-align: left;
 }
-
-
-/*.selfImage {
-  height: 550px;
-  float: right;
-}*/
 
 /*.subContent {
   height: 500px;

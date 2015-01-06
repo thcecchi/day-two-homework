@@ -1,8 +1,8 @@
 /*body {
   background-color: ghostwhite;
 }*/
-
-.mainNav {
+ /*=========================NAVIGATION========================*/
+/*.mainNav {
   background-color: ghostwhite;
   width: 1210px;
   height: 75px;
@@ -40,18 +40,8 @@ li {
 a {
   color: black;
   text-decoration: none;
-}
-
-/*h1 {
-text-align: center;
-color: black;
-font-size: 48px;
 }*/
-
-/*span {
-padding: 30px;
-}*/
-
+/*=======================LARGE HEADER TEXT========================*/
 .bigTextResume {
   font-size: 110px;
   font-family: sans-serif;
@@ -68,36 +58,67 @@ padding: 30px;
   background-color: white;
   padding-left: 10px;
   margin-left: 5px;
-  /*border-radius: 20%;*/
 }
 
-.logoContainer {
-  margin-top: 100px;
-  margin-left: 150px;
+.topBox {
+  width: 100%;
+  border-bottom: 1px solid;
+  display: block;
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.topBoxImage {
+  width: 200px;
   height: 200px;
-  display: inline;
-  float: left;
+  display: inline-block;
+  padding-left: 4%;
+}
+
+.topBoxContent{
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  margin-top: -10px;
+}
+
+a h1:hover {
+  color: #0094ff;
+}
+
+.topBoxContent p{
+  text-align: left;
+  padding-left: 35px;
+  margin-top: -25px;
+}
+/*=========================CONTENT BELOW LINE========================*/
+.logoContainer {
+  padding-top: 10%;
+  display: inline-block;
+  height: 200px;
+  width: 40%;
+  vertical-align: top;
 }
 
 .workIcon {
   width: 220px;
   height: 200px;
-  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
-/*.logoContainer p {
+.logoContainer p {
   display: block;
   font-weight: bold;
-  font-size: 22px;
-  text-decoration: underline;
-}*/
+  font-size: 18px;
+  width: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
 
-
-/*.selfImage {
-height: 550px;
-float: right;
-}*/
-
+/*=========================SUBCONTENT========================*/
 /*.subContent {
 height: 500px;
 width: 1200px;

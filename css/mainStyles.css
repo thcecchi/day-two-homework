@@ -1,9 +1,10 @@
 body {
   background-color: white;
+  margin: 0;
 }
-
+/*=========================NAVIGATION========================*/
 .mainNav {
-  background-color: ghostwhite;
+  background-color: black;
   width: 1222px;
   height: 75px;
   margin-top: -16px;
@@ -12,18 +13,18 @@ body {
 }
 
 .home {
-  color: black;
+  color: white;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 36px;
   text-decoration: none;
   padding-top: 15px;
-  margin-left: 50px;
+  margin-left: 145px;
   float: left;
 }
 
 .home:hover {
-  color: red;
+  color: #0094ff;
 }
 
 ul {
@@ -37,15 +38,15 @@ li {
   display: inline;
   padding-left: 50px;
   font-size: 18px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .mainNav a:hover {
-  color: red;
+  color: #0094ff;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -54,44 +55,73 @@ h1 {
   color: black;
   font-size: 48px;
 }
-
-span {
-  padding: 30px;
-}
+/*=========================MAIN CONTENT========================*/
 
 .mainContent {
   height: 550px;
-  width: 1200px;
+  width: 100%;
   background-color: white;
   padding-left: 10px;
   margin-left: 5px;
-  /*border-radius: 20%;*/
 }
-
+/*=======================LARGE HEADER TEXT========================*/
 .bigText {
-  font-size: 110px;
+  font-size: 7em;
   font-family: sans-serif;
-  text-align: left;
   margin-top: 110px;
-  margin-bottom: 0px;
-  padding-left: 5px;
   display: inline-block;
+  vertical-align: top;
+  width: 45%
 }
 
 .selfImage {
   padding-top: 25px;
-  padding-right: 25px;
   height: 500px;
-  float: right;
   border-radius: 75%;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+/*=========================SUBCONTENT========================*/
+
+.subContent {
+  width: 100%;
 }
 
-/*.subContent {
-  height: 500px;
-  width: 1200px;
-  background-color: blue;
-  padding-top: 10px;
-  padding-left: 10px;
-  margin-left: 5px;
-  /*border-radius: 20%;*/
-}*/
+.logoContainer {
+  padding-top: 15px;
+  height: 85%;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.logoContainer h1 {
+  display: block;
+  text-align: center;
+}
+
+.logoContainer p {
+  display: block;
+  /*margin-left: 100px;*/
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+
+.bottomBox {
+  width: 100%;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.bottomBox p {
+  font-family: sans-serif;
+  font-size: 28px;
+  color: ghostwhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
