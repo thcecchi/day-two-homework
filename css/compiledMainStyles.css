@@ -204,14 +204,17 @@ ul {
     display: block;
     vertical-align: top;
     width: 100%;
-    margin-left: 5%; }
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
   .selfImage {
     display: block;
     vertical-align: top;
-    margin-left: 150px;
     padding: 0;
     width: 50%;
-    height: 50%; }
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto; }
   .subContent {
     width: 90%; }
   .logoContainer {
