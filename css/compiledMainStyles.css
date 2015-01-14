@@ -87,8 +87,9 @@ body {
 
 ul {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   padding-top: 25px;
+  padding-left: 0;
   width: 35%;
   display: inline-block;
   vertical-align: top; }
@@ -106,8 +107,9 @@ ul {
 .mainContent {
   width: 90%;
   background-color: white;
-  padding-left: 10px;
-  margin-left: 5px; }
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*=======================LARGE HEADER TEXT========================*/
 .bigText {
@@ -121,7 +123,7 @@ ul {
 .selfImage {
   padding-top: 25px;
   height: 500px;
-  border-radius: 75%;
+  border-radius: 100%;
   display: inline-block;
   vertical-align: top;
   width: 45%; }
@@ -173,12 +175,12 @@ ul {
       color: #0094ff; }
   .mainNav ul {
     list-style-type: none;
-    display: block;
     width: 50%;
     display: block;
     padding-left: 0;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    text-align: center; }
     .mainNav ul li {
       display: inline;
       font-size: 18px;
@@ -203,11 +205,10 @@ ul {
     width: 100%;
     margin-left: 5%; }
   .selfImage {
-    border-radius: 100%;
     display: block;
     vertical-align: top;
     margin-left: 150px;
-    padding-bottom: 0;
+    padding: 0;
     width: 50%;
     height: 50%; }
   .subContent {
